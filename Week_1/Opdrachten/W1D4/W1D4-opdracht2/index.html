@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Practice Event Handlers</title>
+  <style>
+    .blue-background {
+      background-color: blue;
+    }
+
+    .red-background {
+      background-color: red;
+    }
+  </style>
+
+  <script defer>
+    document.addEventListener('DOMContentLoaded', function() {
+      const thisButton = document.getElementById("mybutton");
+      thisButton.addEventListener('click', function(i) {
+        alert("Button is clicked")
+      })
+
+      const otherButton = document.getElementById("otherbutton");
+      otherButton.addEventListener('click', function(i) {
+
+        const bodyBackground = document.body;
+        if(bodyBackground.classList!="red-background"){
+        bodyBackground.classList = "red-background"}
+        else {
+          bodyBackground.classList="blue-background"
+        }
+      })
+
+
+    })
+
+
+
+
+    //
+  </script>
+</head>
+
+<body class="blue-background">
+
+
+  <button id="mybutton" type="button" class="btn-alert">Alert Me!</button>
+
+  <button id="otherbutton" type="button">Change background!</button>
+
+</body>
+
+</html>

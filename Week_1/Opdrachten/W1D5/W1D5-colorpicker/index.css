@@ -1,0 +1,77 @@
+
+/* BACKGROUNDS*/
+
+.backgroundDefault{
+  background-color: grey;
+}
+
+.backgroundYellow{
+
+  background-color: yellow;
+}
+
+.backgroundGreen{
+
+  background-color: green;
+}
+
+.backgroundBlue{
+
+  background-color: cyan;
+}
+
+.backgroundRed{
+
+  background-color: red;
+}
+
+/*MENU TOGGLER*/
+
+.dropdown-menu{
+
+  width: 25%;
+  border: 1px solid black;
+  margin:20px 20px;
+
+}
+
+#menu-button{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    border:none;
+    background-color: transparent;
+    background-image: url(C:\Users\Tayla\Desktop\WINC_projecten\Week_1\Opdrachten\W1D5\W1D5-colorpicker\menu.png);
+}
+
+#menu-image{
+  width:50px;
+  height:50px;
+  display:block;
+  width:auto;
+}
+
+/*DROPDOWN CONTENT*/
+
+.dropdown-contentDefault
+{
+  display: none;
+
+}
+
+.dropdown-contentToggled{
+
+  display: block;
+
+}
+
+.list-item{
+
+background-color: white;
+color: black;
+text-align: left;
+padding:2px;
+margin:2px auto auto 20px;
+
+
+}

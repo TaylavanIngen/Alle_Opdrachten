@@ -1,0 +1,76 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  color: #3A3F3F;
+}
+
+.Carla, .Marijn {
+  position: relative;
+  width: 400px;
+  border: 1px solid #D3D3D3;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.Carla {
+  float: left;
+}
+
+.Marijn {
+  float: left;
+}
+
+.subtext {
+  color: #9AA7A7;
+  margin-top: 4px;
+}
+
+h2 {
+  color: #3A3F3F;
+  font-size: 1.4rem;
+  margin-top: -5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: auto;
+}
+
+hr {
+  background: #D3D3D3;
+  height: 0.5px;
+  border: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px;
+}
+
+.button-approve {
+  width: 200px;
+  height: 55px;
+  border: 1px solid #39e600;
+  background-color: white;
+  color: #39e600;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  font-weight:bolder;
+  border-radius: 8px 0 0 8px;
+}
+
+.button-decline {
+  width: 200px;
+  height: 55px;
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+  font-family: "Rubik", sans-serif;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  border-radius: 0 8px 8px 0;
+}
