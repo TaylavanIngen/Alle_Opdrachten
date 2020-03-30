@@ -22,7 +22,7 @@ nav {
 
 .filterButton{
   display: inline;
-  
+
 }
 
 label{
@@ -44,8 +44,7 @@ li{
 
 float:left;
 padding:20px;
-list-style-type: none;
-justify-content: center;
+transition-timing-function: ease-in;
 
 }
 
