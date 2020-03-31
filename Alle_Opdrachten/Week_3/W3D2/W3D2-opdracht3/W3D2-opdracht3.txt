@@ -1,0 +1,7 @@
+1a)Een database met een heleboel katjes.
+b)200 OK
+
+2a)Een foutmelding (need key)
+b) 401 Unauthorized
+
+3a) nog steeds een foutmelding. Moest apikey invullen bij authorizationtabje. Toen kreeg ik de filmdatabase.
