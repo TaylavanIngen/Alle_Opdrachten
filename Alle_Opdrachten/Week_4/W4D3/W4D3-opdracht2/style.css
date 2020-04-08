@@ -1,0 +1,59 @@
+
+ul{
+
+  background-color: blue;
+}
+li{
+
+  padding:20px;
+}
+
+li:hover{
+
+  background-color: lightblue;
+}
+
+li:first-child{
+
+  list-style: none;
+  margin-left: -15px;
+  padding-left: 0p;
+}
+
+
+.currentItem{
+
+  background-color: grey;
+}
+
+
+
+
+
+
+#google:hover{
+
+  background-color: blue;
+  color:white;
+  font-weight: bold;
+
+}
+
+#facebook:active{
+
+  background-color: red;
+  color:white;
+  font-style: italic;
+}
+
+#linkedin:visited{
+
+  background-color: yellow;
+  color:yellow;
+}
+
+input:focus{
+
+  border-color: aquablue;
+
+}
